@@ -15,7 +15,8 @@ Project ini menggunakan :
 Datastream
 
 ![Screenshot (316)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/6812f56a-912f-4c69-a2d3-b83030dfe67a)![Screenshot (319)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/c3c046da-445c-4023-ac76-8c7074094b9c)
-![Screenshot (317)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/40b30a1d-3f7b-4415-aa5e-2795d1da46d0)![Screenshot (318)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/5e74ee0d-4406-41a0-8d88-9d1b48568603)
+![Screenshot (317)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/40b30a1d-3f7b-4415-aa5e-2795d1da46d0)
+![Screenshot (318)](https://github.com/Shofi524/IoT-Bootcamp-Kelompok-1/assets/114796717/5e74ee0d-4406-41a0-8d88-9d1b48568603)
 
 Dashboard
 
