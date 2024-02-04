@@ -1,9 +1,12 @@
-# Wokwi project
+Project Bootcamp IoT (Internet of Things)
+Judul : Perancangan Jendela otomatis berdasarkan sensor cahaya dan suhu dengan sistem keamanan Buzzer Berbasis Iot.
 
-This is a Wokwi project. Please edit this README file and add a description of your project.
+Pada project ini kami membuat simulasi sistem kerja alat tersebut pada web Wokwi. Lalu, menyambungkan ke internet melalui Wifi yang disediakan oleh wokwi dan tersambung ke Blynk sebagai dashboard.
 
-## Usage
-
-1. Add parts by clicking the blue "+" button in the diagram editor
-2. Connect parts by dragging wires between them
-3. Click the green play button to start the simulation
+Project ini menggunakan :
+- ESP32
+-  Sensor DHT22
+-  Sensor LDR
+-  Monochrome 128x64 OLED display with I2C interface
+-  Passive Buzzer
+-  Micro Servo Motor
