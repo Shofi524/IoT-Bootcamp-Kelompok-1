@@ -1,4 +1,5 @@
 Project Bootcamp IoT (Internet of Things)
+
 Judul : Perancangan Jendela otomatis berdasarkan sensor cahaya dan suhu dengan sistem keamanan Buzzer Berbasis Iot.
 
 Pada project ini kami membuat simulasi sistem kerja alat tersebut pada web Wokwi. Lalu, menyambungkan ke internet melalui Wifi yang disediakan oleh wokwi dan tersambung ke Blynk sebagai dashboard.
