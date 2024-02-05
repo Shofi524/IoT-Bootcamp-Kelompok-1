@@ -98,13 +98,13 @@ void loop()
     tempCelcius = data.temperature;
     Blynk.virtualWrite(V2, tempCelcius);
     Blynk.virtualWrite(V3, ldrStatus1 );
-    if (ldrStatus1 < 1126 && tempCelcius >= 70 )
+    if (ldrStatus1 < 400 && tempCelcius >= 70 )
     {
       servo.write(45);
       delay (20);
       tone(buzzerPin,200);
     }
-    else if (ldrStatus1 < 1126 && tempCelcius < 70)
+    else if (ldrStatus1 < 400 && tempCelcius < 70)
     {
       servo.write(90);
       delay (20);
