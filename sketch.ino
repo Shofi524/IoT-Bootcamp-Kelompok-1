@@ -86,7 +86,8 @@ void loop()
   if (waktu-prevTime >= 1000)
   {
     //if (ledPin == HIGH){
-    Blynk.virtualWrite(V0,1); // Mengirim nilai HIGH ke pin virtual V1 di Blynk
+    
+    Blynk.virtualWrite(V0,1);
       
     int ldrStatus = analogRead(ldrPin);
     ldrStatus = map(ldrStatus, 4095, 0, 1024, 0); //mengubah nilai pembacaan sensor LDR dari nilai ADC arduino menjadi nilai ADC ESP32
@@ -103,24 +104,28 @@ void loop()
       servo.write(45);
       delay (20);
       tone(buzzerPin,200);
+      Blynk.virtualWrite(V1,1);
     }
     else if (ldrStatus1 < 400 && tempCelcius < 70)
     {
       servo.write(90);
       delay (20);
       tone(buzzerPin,0);
+      Blynk.virtualWrite(V1,0);
     }
     else if (ldrStatus1 >= 1126 && tempCelcius < 70)
     {
       servo.write(45);
       delay (20);
       tone(buzzerPin,0);
+      Blynk.virtualWrite(V1,0);
     }
     else if (ldrStatus1 >= 1126 && tempCelcius >= 70)
     {
       servo.write(45);
       delay(20);
       tone(buzzerPin,200);
+      Blynk.virtualWrite(V1,1);
     }
     tempString  = String(tempCelcius, 2); // two decimal places
     tempString += (char)247;
